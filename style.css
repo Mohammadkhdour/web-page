@@ -1,0 +1,81 @@
+/* CSS Styles for main_en.html */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+        background-image: url("img/bzuphoto.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blue-text {
+    color: #007bff; /* Blue color */
+}
+
+.link-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.link-box a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.link-box a:hover {
+    text-decoration: underline;
+}
+
+.imgg
+{
+    width: 150px;
+   border-radius: 16px;
+    height: 200px;
+}
+
+.student-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* gap: 16px; */
+    flex-direction: column;
+
+}
+.box {
+    display: flex;
+
+/*border: 1px solid #fffcfc;*/
+padding: 20px;
+margin: 10px;
+/*box-sizing: border-box;*/
+position: relative;
+overflow: hidden;
+gap: 16px;
+border-radius: 16px;
+z-index: 1;
+border: 1px solid #ddd;
+border-radius: 5px;
+       }
+
+       p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px;
+        margin-top: 0; /* Adjust the margin as needed */
+        margin-bottom: 5px; /* Adjust the margin as needed */
+        color:#fffcfc;
+        font-style:inherit;
+        font-weight:90;
+    }

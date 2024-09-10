@@ -1,0 +1,24 @@
+<!--  Name: mohammad Khdour - ID:1212517
+      Name: mohammad Ataya - ID: 1211555
+      Name: Hamza Alqam - ID:1211173-->
+
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Image Form</title>
+        <script>
+            function updateAction() {
+                var imageName = document.getElementById("image").value;
+                var form = document.getElementById("imageForm");
+                form.action = "img/" + imageName ;
+            }
+        </script>
+    </header>
+    <body>
+        <form id="imageForm" method="post">
+            <label for="image">Image name: </label>
+            <input type="text" id="image" name="image" placeholder="image name" required>
+            <input type="submit" value="Get Image" onclick="updateAction()">
+        </form>
+    </body>
+</html>
